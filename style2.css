@@ -1,0 +1,57 @@
+* {box-sizing:border-box;}
+ * {box-sizing: inherit}
+ * {background-color: #F2E2DC}
+
+ @font-face { font-family: 'NanumBarunGothic';
+    src: url('/fonts/NanumBarunGothic.eot');
+    src: url('/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+    url('/fonts/NanumBarunGothic.woff') format('woff');}
+    @import url(https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+ html {overflow-x:hidden}
+ html, body{font-family:'Courier New', Courier, monospace;font-size:15px;line-height:1.5; margin:0}
+
+ footer,header,main {display:block;}
+
+ h1{font-size:36px}
+ h2{font-size:30px}
+ h3{font-size:24px}
+ h4{font-size:20px}
+ h5{font-size:18px}
+ h6{font-size:16px}
+ h1,h2,h3,h4,h5,h6{font-family:'Courier New', Courier, monospace; font-weight:400;margin:10px 0}
+ p {font-family: 'NanumMyeongjo','serif';}
+
+
+a { background-color:transparent;}
+a:active {
+    text-decoration: none; }
+
+.bigbox {margin-top:16px; margin-bottom:16px; display: block; color: #223740}
+.imgpadding { max-width:100%; height:auto} 
+.half { width:45%; display:inline-block;  margin: 15px;}
+
+
+.xlarge { font-size:24px; }
+.xxlarge{font-size:36px; }
+.xxxlarge{font-size:48px; }
+.jumbo{font-size:64px; }
+
+
+.caption {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    padding: 7px 10px;
+    color:#F25C5C;
+    display: inline-block; }
+
+
+
+.sidebar { height:100%; width:300px; background-color:#400101; position:fixed; z-index:1; overflow:auto; }
+.bar-block { background-color: #400101; text-align:left; margin-top:20px;  padding:8px 16px; border:none; float:none; outline:0; color:#F2E2DC; font-size:25px; }
+
+
+
+
+.credit { margin-top: 80px; font-size:12px; }
